@@ -81,7 +81,9 @@ regrL.fit(X,y_Kmeans)
 
 x1 = 8 #t1_inhibitorKills #si es cero la prob que gane el t1 deberia ser baja
 y1 = 4 #t1_baronKills
-z1 = 11 #t1_towerKills # hay q elegir otros datos de la parttida, las variables del team 2 influyen mucho
+z1 = 11 #t1_towerKills 
+
+# Acotacion hay que elegir otros datos de la parttida, las variables del team 2 influyen mucho.
 
 new_date =[x1,y1,z1]
 new_predict = regrL.predict([new_date]) # ("t1_inhibitorKills","t1_baronKills","t1_towerKills")

@@ -69,7 +69,7 @@ to_plot(X_test,"Knn",colores_Knn)
 # Prediction
 x1 = 8 #t1_inhibitorKills #si es cero la prob que gane el t1 deberia ser baja
 y1 = 4 #t1_baronKills
-z1 = 11 #t1_towerKills #pesa harto, hay q elegir otros datos de la parttida, las variables del team 2 influyen mucho
+z1 = 11 #t1_towerKills 
 new_date =[x1,y1,z1]
 
 
