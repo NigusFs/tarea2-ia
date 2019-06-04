@@ -74,7 +74,7 @@ ax.scatter(C[:, 0], C[:, 1], C[:, 2], marker='*', c=colours, s=1000) #centroides
 
 ###
 
-#Prediccion usando Regresion lineal
+#Prediccion usando Regresion logica
 
 regrL = LogisticRegression(C=1.0, solver='lbfgs', multi_class='ovr')
 regrL.fit(X,y_Kmeans)
